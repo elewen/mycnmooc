@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">	
+	<title>注册页</title>
+	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../css/signUp.css">
+</head>
+<body>
+<!-- 头部 --> 
+	<div class="header"">
+		<div>
+			<div class="logo">
+				<a href="##">
+					<img src="../images/logo.png" alt="">
+				</a>
+			</div>
+			<div class="skip">
+				<a href="./homepage.html">
+					<span>首页</span>
+				</a>
+				<a href="./courses.html">
+					<span>课程</span>
+				</a>
+				<a href="./universities.html">
+					<span>院校</span>
+				</a>
+			</div>
+			<div class="user">
+				<div id="loged" style="">
+					<span style="" id="displayUser"></span>
+					<div id="fuckOff" style="display:none;">
+						<a href="##" style="">&nbsp;&nbsp;退出&nbsp;&nbsp;</a>
+					</div>
+				</div>
+				<div id="unLogin">
+					<a href="./signUp.html" target="_black">注册</a> / <a href="./login.html"  target="_black">登录</a>
+				</div>
+				<!-- 扫二维码 -->
+				<div class="app" id="app">
+					<a href="##"></a>
+				</div>
+				<!-- 搜索 -->
+				<div id="search">
+					<a href="##"></a>
+				</div>
+				<div id="searchMoveBox" style="">
+					<input type="text" placeholder="根据课程名称、学校、教师搜索">
+					<a href="##">
+						<i class="icon "></i>
+					</a>
+				</div>
+			</div>
+			<a class="mobile-app" id="mobileApp" style="display:none;">
+				<img src="../images/mobile_220.png">
+			</a>
+		</div>
+	</div>
+
+	<!-- 页面中部 -->
+	<div class="body">
+		<!-- 左边图 -->
+		<div class="left">
+			<img src="../images/device-visit.png">
+		</div>
+		<!-- 右边注册信息框 -->
+		<div class="sign-box">
+			<!-- 注册栏的标题和icon -->
+			<div class="title">
+				<i class="icon-regist"></i> 注册
+			</div>
+			<!-- 注册信息填写 -->
+			<div id="sign_box">
+				<p>
+					<span><b>*</b>邮箱</span>&nbsp;<input type="email" id="email">
+				</p>
+				<p>
+					<span><b>*</b>登录密码</span>&nbsp;<input type="password" id="pwd">
+				</p>
+				<p class="tip">
+					<i class="icon-tip"></i>请输入6~20个字符
+				</p>
+				<p>
+					<span><b>*</b>确认密码</span>&nbsp;<input type="password" id="rPwd">
+				</p>
+				<p>
+					<i class="icon-select"></i>我已经阅读并同意<a href="##">《用户协议》</a>约定。
+				</p>
+				<div id="btn_sign">
+					<span><i id="icon_btn_sign"></i></span><a>注册</a>
+				</div>
+			</div>
+			<!-- 跳转去登录页 -->
+			<div class="bottom">
+				<p>
+					已有帐号，<a href="./login.html">去登录</a>
+				</p>
+				<p>
+					您的学校已与我们签约合作，<a href="./universities.html">查看签约学校</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- 尾部 -->
+	<div id="footer">
+		<div>
+			<!-- footer-left -->
+			<div>
+				<div class="foot-com-height">
+					中国高水平大学慕课联盟官方网站
+					
+					<ul>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<p class="foot-com-height">© 版权所有 2015 上海交通大学慕课研究院</p>
+				<p class="foot-com-height cooperate">
+					<span>战略合作：</span>
+					<a href="##" class="icon-baidu"></a>
+					<a href="##" class="icon-wisedu"></a>
+				</p>
+				<p class="foot-com-height">沪ICP备06018291号</p>
+			</div>
+			<!-- footer-center -->
+			<div class="footer-center">
+				<div class="foot-com-height">客服电话：4008296199</div>
+				<div class="foot-com-height">
+					QQ 客服：
+					<a href="##">
+						<i class="qq"></i>
+						<span>2782661530</span>
+					</a>
+				</div>
+				<div class="foot-com-height">
+					关注微信：
+					<a href="##" style="margin-left:-1px;position:relative;" class="qr">
+						<i class="wechat"></i>
+						<span>sjtucnmooc</span>
+						<img src="../images/wechat.jpg" class="wechat-qr">
+					</a>
+				</div>
+			</div>
+			<!-- footer-right -->
+			<div>
+				<dl>
+					<dt>联盟</dt>
+					<dd><a href="##">服务条款</a></dd>
+					<dd><a href="##">关于我们</a></dd>
+					<dd><a href="##">联系我们</a></dd>
+				</dl>
+				<dl>
+					<dt>帮助</dt>
+					<dd><a href="##">常见问题</a></dd>
+					<dd><a href="##">学生手册</a></dd>
+					<dd><a href="##">证书查询</a></dd>
+				</dl>
+				<dl>
+					<dt>更多</dt>
+					<dd><a href="##">通知通告</a></dd>
+					<dd><a href="##">新闻动态</a></dd>
+					<dd><a href="##">媒体报道</a></dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+	
+</body>
+<script src="../js/public.js"></script>
+<script src="../js/signUp.js"></script>
+<script src="../js/user.js"></script>
+</html>

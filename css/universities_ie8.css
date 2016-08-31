@@ -1,0 +1,6 @@
+.shadow-box{top:0px;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C8FCFCFC,endColorstr=#C8FCFCFC);display: none;
+	}/*影子*/
+.sc-item:hover>.shadow-box{display: block;cursor:pointer;}
+.shadow-box>.p1{margin-top: 65px;}
+.shadow-box>.p2{margin-top: 10px;}
+.glass{display: none;}/*镜子*/

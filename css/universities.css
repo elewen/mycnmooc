@@ -1,0 +1,35 @@
+i{background-image: url(../images/sprite.png);margin:0px 10px -4px 0px;}
+.main>.bgiTop{width:100%;height: 310px;background-image: url(..//images/school-default.jpg);background-position: center;}
+.universities{width: 1200px;height: 3500px;background-color: #FCFCFC;padding:18px;margin:0 auto;}
+.universities h3{height:27px;vertical-align: top;line-height: 27px;}
+
+.icon-univers{width: 24px;height: 24px;display: inline-block;background-position: -480px 0px;}
+.icon-public{width: 24px;height: 24px;display: inline-block;background-position: -504px 0px;}
+.univers{height: 3160px;padding-bottom:20px;border-bottom: 1px solid #D1D1D1;}
+
+.sc-list{width: 1148px;padding: 0px 8px;margin: 0 auto;}
+.sc-item{width: 200px;height: 200px;margin:10px 14px;float: left;position: relative;overflow: hidden;}
+.shadow-box{width:200px;height: 200px;background-color:rgba(252,252,252,.85);position: absolute;left:0px;top:-200px;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#19FCFCFC,endColorstr=#19FCFCFC);}/*影子*/
+.shadow-box>p{text-align: center;width: 170px;margin:0 auto;color: #434d57;}
+.shadow-box>p:nth-of-type(1){margin-top: 65px;}
+.shadow-box>p:nth-of-type(2){margin-top: 10px;}
+.glass{width: 200px;height: 200px;display: block;background-color:rgba(0,0,0,0);position: absolute;left: 0px;top:0px;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#19FFFFFF,endColorstr=#19FFFFFF);}/*镜子*/
+
+
+.public{height: 200px;}
+.public>h3{padding:20px 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

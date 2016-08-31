@@ -1,0 +1,85 @@
+
+/*第一个轮播图*/
+.lun-1{height:460px;}
+#lun_1{height:460px;background-image:url(../images/001.jpg);background-position:center;transition:1s;cursor: pointer;}
+.lun-1 li{width:12px;height:12px;display:inline-block;border:1px solid #ccc;margin: 0 5px;border-radius: 50%;}
+.lun-1 ul{position:relative;left:50%;margin-left:-131px;bottom:50px;display: inline-block;cursor: pointer;}
+/*第二个轮播图*/
+/*轮播组件*/
+.lun-2{width: 1200px;height: 280px;margin:0 auto;line-height: 280px;text-align: center;background-image: url(../images/course-bg.png);background-repeat: no-repeat;background-position:center;}
+.lun-2>#goLeft,.lun-2>#goRight{width: 32px;height: 32px;display: inline-block;line-height: 280px;}
+.lun-2>#goRight{}
+#lun_2{width: 1110px;height: 180px;display: inline-block;vertical-align: middle;display: inline-block;position:relative;overflow: hidden;}
+.lun-2>#goLeft{background-position: 0px -383px;}
+.lun-2>#goRight{background-position: -32px -383px;}
+.lun-2>span{cursor:pointer;background-image:url(../images/sprite.png);}
+#lun_2>div{width: 1110px;height: 180px;}
+#lun_2>.div-1{position:absolute;left:0px;}
+#lun_2>.div-2{position:absolute;left:1110px;}
+/*轮播内容*/
+.lun-2 .img-box{width: 320px;height: 180px;position:relative;}
+.lun-2 .img{width: 100%;height: 100%;}
+.lun-2 .img-box>a{position: absolute;left:124px;top:64px;width: 72px;height: 52px;overflow: hidden;background-image: url(../images/sprite-player.png);background-position: 0px 0px;}
+.lun-2 .text-box{width: 780px;height: 180px;position: absolute;top:0px;right:0px;padding:4px 0px 0px 0px;}
+.lun-2 h3,.lun-2 h4,.lun-2 p{line-height: 25px;text-align: left;color:#434d57;}
+.lun-2 p{font-size: 12px;}
+.lun-2 .link{position: absolute;right: 0px;bottom:0px;line-height: 24px;font-size: 14px;padding-right: 5px;}
+.lun-2 .link>.icon-view02{width: 24px;height: 24px;display: inline-block; background-image: url(../images/sprite.png);background-position: -288px -312px;vertical-align: middle;}
+.lun-2 .link>span{color:#16a1a4;}
+.lun-2 .link>span:hover{text-decoration:underline}
+/*CNMOOC的最新课程*/
+.content-3{height: 664px;background-color: #60d4d4;padding:40px 0px;}
+.content-3 h2{font-size: 30px;font-weight: normal;color: #434d57; text-align: center;}
+.content-3>div{width: 1200px;height: 666px;margin:0 auto;}
+.content-3 li{width: 284px;height: 234px;margin:27px 5.73px;background-color: #f48282;display: inline-block;font-size: 14px;}
+.content-3 .img{width: 100%;height: 100%;transition: all .8s;}
+.content-3 li>div:nth-of-type(1):hover>img{transform: scale(1.1,1.1);}
+.reset-line-height>table{width: 284px;height: 164px;}
+.reset-line-height td{width: 240px;padding-left: 40px; text-align: left;} 
+.content-3 h3{height: 36px;line-height: 30px;text-align: center;color:#fff;}
+.content-3 h3>span{padding-left:10px;font-size: 14px;}
+.content-3 .people{position: relative;color:#fff;}
+.content-3 .left{width: 120px;height: 34px;background-color: #434d57;display: inline-block;position:absolute;left: 0px;text-align: center;line-height: 34px;}
+.content-3 .left>img{width: 22px;height: 22px;vertical-align: middle;line-height: 34px;border:1px solid #777;border-radius: 50%;}
+.content-3 .left>span{padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;}
+.content-3 .right{width: 162px;height: 34px;background-color: #434d57;display: inline-block;position:absolute;right: 0px;text-align: center;line-height: 34px;}
+.content-3 .more{text-align: center;line-height: 34px;margin:10px 0px 0px 0px;}
+.content-3 .more>a{text-align:left;width: 270px;height: 38px;display: inline-block;background-color: #434d57;color:#fff;border-radius: 2px;overflow: hidden;transition: all .3s;}
+.content-3 .more>a:hover{background-color: #616f7e;}
+.content-3 .more .icon{width: 40px;height: 38px;display:inline-block;background-color: #14bbb5;text-align: center;}
+.content-3 .more .icon>b{width: 24px;height: 24px;display: inline-block; background-image: url(../images/sprite.png);background-position: -96px 0px;vertical-align: middle;}
+.content-3 .more .tex{margin:0px 0px 0px 66px;}
+
+/*跟随相关*/
+.content-3 li>div:nth-of-type(1){width: 284px;height: 164px; position: relative;overflow: hidden;margin:0px 0px 0px 0px;}/**********mark 此处给overflow*/
+.shadow-box{width: 284px;height: 164px;background-color: rgba(0,0,0,0.5);position: absolute;left:0px;top:-165px;line-height: 164px;text-align: center;color: #d0d0d0;}
+.reset-line-height{line-height: 30px;vertical-align: middle;}
+.glass{width: 284px;height: 164px;background-color: rgba(255,255,255,0);position: absolute;left:0px;top:0px;}
+.icon-lock{width: 24px;height: 24px;display: inline-block;background-image:url(../images/sprite.png); background-position: 0px 0px;vertical-align: middle;margin-right: 10px;}
+.icon-date{width: 24px;height: 24px;display: inline-block;background-image:url(../images/sprite.png); background-position: -24px 0px;vertical-align: middle;margin-right: 10px;}
+.icon-long{width: 24px;height: 24px;display: inline-block;background-image:url(../images/sprite.png); background-position: -48px 0px;vertical-align: middle;margin-right: 10px;}
+.icon-speed{width: 24px;height: 24px;display: inline-block;background-image:url(../images/sprite.png); background-position:-72px 0px;vertical-align: middle;margin-right: 10px;}
+/*CNMOOC的运作机制*/
+.content-4{height: 335px;background:url(../images/operation-bg.png) no-repeat center;background-size: auto 335px;color:#434d57;}
+.content-4>div{width: 1200px;height: 290px;margin:0 auto;padding-top: 45px;}
+.content-4 .line{width:350px;height:7px;display:inline-block;background-image: url(../images/header-line.png);margin-top: 12px;}
+.content-4 h2>.left{float:left}
+.content-4 h2>.right{float:right}
+.content-4 h2>span{margin-left:110px;}
+.content-4 h2,h3{font-weight: normal;}
+.content-4 h2{font-size: 30px;}
+.content-4 h3{font-size: 20px;transition: all .3s;width: 188px;height: 30px;position:absolute;}
+.content-4 .item:hover h3{font-size: 26px;}
+.content-4 .items{text-align: center;margin:30px 0px;}
+.content-4 .item{width: 180px;height: 147px;display: inline-block;padding:18px 22px 5px;border:1px solid rgba(255,255,255,0);transition: all .4s;cursor: pointer;}
+.content-4 .item:hover{background-color:rgba(242,246,246,0.8);border:1px solid #d6d6d6;width: 188px;}
+/*.content-4 .item>div{border:5px solid #fff;}*/
+.content-4 .item i{width: 90px;height: 90px;display: inline-block; background-image: url(../images/sprite-mooc.png);border:8px solid rgba(255,255,255,0);border-radius: 50%; transition:transform .8s;overflow: hidden;background-clip:content-box;}
+.content-4 .item:hover i{transform:rotate(-30deg);border:8px solid rgba(255,255,255,1);}
+.content-4 .item-2{background-position:0px -90px}
+.content-4 .item-3{background-position:0px -180px}
+.content-4 .item-4{background-position:0px -270px}
+.content-4 .item-5{background-position:0px -360px;}
+
+
+

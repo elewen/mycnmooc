@@ -1,0 +1,110 @@
+/*此文件包含了所有页面 1.全局格式化 2.头部logo注册登录 3.尾部网站信息 4.注册页和登录页中部框架 的css样式*/
+/*格式化*/
+*{padding:0;margin:0;font-family: "Microsoft Yahei",Arial,Helvetica,sans-serif;}
+ul li{list-style:none;}
+a{text-decoration:none;color:#444444;}
+/*body{background:#999;}*/
+
+/*头部logo注册登录*/
+
+.header{background:#F5F5F5;}
+.header>div{width:1200px;height:94px;margin:0 auto;background:#F5F5F5;}
+.header>div>div{height: 94px;float: left;}
+.logo{width:275px;line-height: 94px;margin-left:27px;}
+.logo>a{display:block;line-height: 94px;}
+.logo>a>img{line-height: 94px;vertical-align: middle;}
+.skip{line-height: 94px;margin-left:180px;}
+.skip a{display: inline-block;font-size:20px;font-weight:bold;padding:0px 30px;}
+.user>div{display:inline-block;color:#444;}
+#unLogin{margin-right:20px;}
+#unLogin a:hover{color:#16a1a4;border-bottom: 1px solid #16a1a4;}
+.app>a{width:32px;height:32px;display:inline-block;background-image:url(../images/sprite.png);background-position:-481px -192px;vertical-align:middle;position: relative;}
+.app>a:hover{background-position:-513px -192px;}
+#search>a{width:24px;height:24px;display:inline-block;background-image:url(../images/sprite.png);background-position:-408px 0px;vertical-align:middle;}
+.user{float:right;line-height: 94px;padding-left:240px;overflow: hidden;}
+.user div{float:left;}
+/*扫描二维码*/
+.user{position: relative;}
+.mobile-app{width: 100px;height: 100px;position: absolute;top:64px;right:77px;}
+.mobile-app>img{width: 100px;height: 100px;cursor: pointer;position: absolute;}
+
+
+
+/*弹出式搜索框*/
+#searchMoveBox{width: 270px;height: 30px;border: 1px solid #beccdb;border-radius: 2px;overflow: hidden;transition: all .3s; float: right;position: absolute;bottom:29px;right:-275px;background-color: #fff;}
+#searchMoveBox>input{width: 230px;height: 30px;border:none;outline:none;margin-left: 10px;position: absolute;}
+#searchMoveBox a{float: right;line-height: 25px;}
+#searchMoveBox i{margin-right: 0px;background-position:-384px 0px;width: 24px;height: 24px;display: inline-block;background-image: url(../images/sprite.png);margin-right: -1px;vertical-align: middle;}
+
+
+/*注册页和登录页中部框架*/
+/*左边图片*/
+.body{width:960px;height:610px;margin:0 auto;}
+.body>.left>img{margin:70px 0 0 40px;float: left;}
+/*注册信息填写提交*/
+
+
+
+/*注册框*/
+.sign-box{width:407px;float:right;margin:10px 30px 0px 0px;background-color:#434d57;}
+.sign-box>.title{height:50px;line-height: 50px;}
+.sign-box>#sign_box{width: 407px;height:254px;background-color: #F5F5F5;}
+.icon-regist{margin-left:15px;width:24px;height:25px;display:inline-block;vertical-align: middle;background-image:url(../images/sprite.png);background-position: -168px -264px ;}
+#sign_box{padding:10px 0;}
+#sign_box>p{line-height: 25px;margin: 12px 0px;}
+#sign_box input{width: 200px;height: 25px;}
+#sign_box>p>span{width: 80px;display:inline-block;margin-left:10px;text-align: right;}
+.icon-tip{margin:-3px 0px 0px 105px;width: 16px;height: 16px;display:inline-block;vertical-align:middle;background-image:url(../images/sprite.png);background-position: -384px -64px;}
+#sign_box>.tip{margin: -10px 0px;}
+#sign_box>p>span>b{font-family: "宋体";color: #f48282;padding-right: 5px;}
+.sign-box>.bottom{width: 367px;height: 69px;border-bottom:1px solid #d0d6dc;padding:10px 0px 0px 40px;background-color: #FCFCFC;}
+.sign-box>.bottom>p{line-height: 30px;}
+#sign_box .icon-select{width:24px;height:25px;display:inline-block;vertical-align:middle;margin: 0px 0px 0px 30px;background-image:url(../images/sprite.png);background-position: -264px 0;}
+#btn_sign{width: 190px;height:30px;margin:0px 0px 0px 106px;border-radius:2px;background-color: #434d57;display: inline-block;cursor:pointer;}
+#btn_sign>span{width: 40px;height: 30px;display:inline-block;background-color: #16a1a4;}
+#icon_btn_sign{float:left;width: 16px;height: 16px;margin:8px 0px 0px 12px;display: inline-block;background-image:url(../images/sprite.png);background-position: -352px -224px;}
+#btn_sign>a{float:right;color:#fff;margin:4px 55px 0px 60px;}
+.sign-box a{color: #16a1a4;}
+
+
+/*登录框*/
+.icon-login{margin-left:15px;width:24px;height:24px;display:inline-block;vertical-align: middle;background-image:url(../images/sprite.png);background-position: -144px -264px;}
+.login-box>.title>a{float:right;margin-right:20px;}
+#login{text-align:center;line-height:40px;color:#FFF;width: 325px;height: 40px;border-radius:2px;margin:0 auto;background-color:#16a1a4;cursor:pointer;}
+#loged{width:100px;overflow:hidden;width:80px;margin-right:0;display:none;}
+#displayUser{cursor:pointer;user-select:none;}
+#fuckOff{position:absolute;top:20px;right:80px;}
+#fuckOff>a{background:#434d57;color:#fff;}
+
+/*尾部网站信息*/
+/*全局*/
+#footer{background-color: #434d57;font-size: 13px;color:#a2b5c7;}
+#footer>div{width:1200px;height:183px;margin:0 auto;background-color: #434d57;}
+#footer>div>div{margin:40px 40px 0px 40px;float:left;}
+.foot-com-height{height:30px;}
+/*尾部左*/
+#footer>div>div:nth-of-type(1){width:340px;}
+.icon-baidu{padding:0px 0px 0px 0px;margin:-12px 0px 0px 0px;width:80px;height:30px;display:inline-block;vertical-align: middle;background-image:url(../images/sprite.png);background-position: -335px -472px;}
+.icon-wisedu{padding:0px 0px 0px 0px;margin:-12px 0px 0px 10px;width:80px;height:30px;display:inline-block;vertical-align: middle;background-image:url(../images/sprite.png);background-position: -334px -439px;}
+.icon-baidu:hover{background-position: -418px -472px;}
+.icon-wisedu:hover{background-position: -418px -439px;}
+.cooperate{margin-top: 8px;}
+/*.icon-before{width:10px;height:5px;display:inline-block;vertical-align: middle;background-image:url(../images/sprite.png);background-position: -147px -58px;}
+.language{margin-left:10px;color:#FFF;}*/
+/*尾部中*/
+.footer-center{padding-left:30px;}
+.footer-center>div:nth-of-type(n+1){margin-top: 5px;}
+.footer-center span{color: #fff;font-weight: bold;}
+.footer-center>div>a{width: 122px;height: 30px;display: inline-block;background-color: #49545f;border-radius: 2px;}
+.footer-center>div>a:hover{background-color: #616f7e}
+.footer-center>div>a>i{width: 30px;height: 30px;display: inline-block;}
+.qq{vertical-align: middle;background-image:url(../images/sprite.png);background-position: -385px -193px;}
+.wechat{vertical-align: middle;background-image:url(../images/sprite.png);background-position: -225px -129px;}
+.wechat-qr{width: 120px;height: 120px;position: absolute;left:1px;bottom:30px;display:none;}
+.qr:hover>img{display: block;}
+/*尾部右*/
+#footer dl{float:left;}
+#footer>div>div:nth-of-type(3){padding-left:90px;width:300px;}
+#footer dt,dd{width:100px;height:30px;}
+dd>a{color:#a2b5c7;}
+dd>a:hover{color:#FFF;}

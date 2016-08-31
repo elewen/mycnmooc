@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">	
+	<title>院校</title>
+	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../css/universities.css">
+	<style>
+		.skip>.Pink{background-color: #f48282;height: 80px;color:#fff;}
+	</style>
+	<!--[if IE 8]><link rel="stylesheet" type="text/css" href="../css/universities_ie8.css" /><![endif]-->
+</head>
+<body>
+	<div class="header"">
+		<div>
+			<div class="logo">
+				<a href="##">
+					<img src="../images/logo.png" alt="">
+				</a>
+			</div>
+			<div class="skip">
+				<a href="./homepage.html">
+					<span>首页</span>
+				</a>
+				<a href="./courses.html">
+					<span>课程</span>
+				</a>
+				<a href="./universities.html" class="Pink">
+					<span>院校</span>
+				</a>
+			</div>
+			<div class="user">
+				<div id="loged" style="">
+					<span style="" id="displayUser"></span>
+					<div id="fuckOff" style="display:none;">
+						<a href="##" style="">&nbsp;&nbsp;退出&nbsp;&nbsp;</a>
+					</div>
+				</div>
+				<div id="unLogin">
+					<a href="./signUp.html" target="_black">注册</a> / <a href="./login.html"  target="_black">登录</a>
+				</div>
+				<!-- 扫二维码 -->
+				<div class="app" id="app">
+					<a href="##"></a>
+				</div>
+				<!-- 搜索 -->
+				<div id="search">
+					<a href="##"></a>
+				</div>
+				<div id="searchMoveBox" style="">
+					<input type="text" placeholder="根据课程名称、学校、教师搜索">
+					<a href="##">
+						<i class="icon "></i>
+					</a>
+				</div>
+			</div>
+			<a class="mobile-app" id="mobileApp" style="display:none;">
+				<img src="../images/mobile_220.png">
+			</a>
+		</div>
+	</div>
+
+	<div class="main">
+		<div class="bgiTop"></div>
+		<div class="universities">
+			<div class="univers">
+				<!-- 合作院校 ************************************************************-->
+				<h3><i class="icon-univers"></i>合作院校</h3>
+				<ul class="sc-list" id="sc_list">
+
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/190/l/32447e3339c3431aa4f150cae6415ae1.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">IBM大数据大学</p>
+								<p class="pp p2">IBM Big Data University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/13/200d6805e99946819bd41f804f3ba819/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">上海中医药大学</p>
+								<p class="pp p2">Shanghai University of T.C.M</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/13/82f1868a3ef54749a3bd1afcdbdf3678/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">上海交通大学</p>
+								<p class="pp p2">Shanghai Jiao Tong University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/13/e5a338ef753441eeb2460cccd8789790/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">中国科学技术大学</p>
+								<p class="pp p2">University of Science and Technology of China </p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/37/l/1b6edfff003649a9ba99a48ccb7c5fa3.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">云林科技大学</p>
+								<p class="pp p2">Yunlin University of Science and Technology</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/32/l/13de0fca234a4b8080478d704751ab20.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">北京大学</p>
+								<p class="pp p2">Peking University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/16/9cc3de19ea6447d8bd0841551a0c9691/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">华南理工大学</p>
+								<p class="pp p2">South China University of Technology</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/77/l/e79381b3d967493db3ce3933395eb926.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">华南理工大学软件学院</p>
+								<p class="pp p2">South China University of Technology</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/169/l/4da9e10b4f094380806ccde91b56950a.png">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">台北医学大学</p>
+								<p class="pp p2">Taipei Medical University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/136/l/d884c377587646d38159fc2d61964d5f.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">台湾宜兰大学</p>
+								<p class="pp p2">Taiwan Ilan University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/95/l/0451a1f4f5854ce08898a3fd094e0627.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">同济大学</p>
+								<p class="pp p2">Tongji University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/16/97c9d904300c4604b3fe1a545f6f40a5/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">哈尔滨工业大学</p>
+								<p class="pp p2">Harbin Institute of Technology</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/145/l/2234df06427d431f884829a9020492b1.png">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">国家开放大学</p>
+								<p class="pp p2">The Open University of China</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/197/l/396e6241bf6044719eff37686775fb72.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">宁夏大学</p>
+								<p class="pp p2">NINGXIA University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/165/l/c2d99ba8086d43bca26477d47201a430.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">宁波大学</p>
+								<p class="pp p2">Ningbo University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/196/l/24b8585bb749443c80159aca01b51aa3.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">广东工业大学</p>
+								<p class="pp p2">Guangdong University Of Technology</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/9/l/fead32698fdf4abb848693dea70bc696.png">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">广州大学</p>
+								<p class="pp p2">Guangzhou University  </p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/13/4bd4c5480a2e492c9ce0718047b7754f/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">新竹交通大学</p>
+								<p class="pp p2">Chiao Tung University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/172/l/52cf974bcb6f4e7eaedf0e9bbadd0945.png">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">新竹清华大学</p>
+								<p class="pp p2">Xinzhu Tsing Hua University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/155/l/b8962f9f7cd5444bbd9a4df2934b8193.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">桃园中原大学</p>
+								<p class="pp p2">Chung Yuan Christian University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/167/l/0b9bdf97f5ce4b14b683926b161a6ac5.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">江苏大学</p>
+								<p class="pp p2">Jiangsu University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/59/l/ee74fc9d70e14221846ae982312bacfa.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">淡江大学</p>
+								<p class="pp p2">Tamkang University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/199/l/87489783aed6482f8f1f060715fe6d44.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">牡丹江大学</p>
+								<p class="pp p2">Mudanjiang University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/31/l/dfdc88a70ede4a4dbd881eb4ff24ce58.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">科技部中国21世纪议程管理中心</p>
+								<p class="pp p2">China's Agenda21</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/41/l/8591815bbc56470ebcec30691f50d846.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">西安交通大学</p>
+								<p class="pp p2">Xi`an Jiaotong University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/39/l/a997beb59e5a458996a1fe47316587b9.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">长江大学</p>
+								<p class="pp p2">Yangtze University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/146/l/cbd38d743f2045b5837598a2d3c0f62d.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">黑龙江工程学院</p>
+								<p class="pp p2">Heilongjiang Institue Of Technogly</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/38/l/46b64aaf62ed432abafae3bcc0ef5499.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">ewant育网</p>
+								<p class="pp p2">ewant courses</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/14/57fab66d1728469e8ce0c7a847f8581a/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">上海对外经贸大学</p>
+								<p class="pp p2">Shanghai University of International Business and Economics</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/14/feabfb3f35f048aab58431e2424fa379/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">上海工程技术大学</p>
+								<p class="pp p2">Shanghai University Of Engineering Science</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/53/l/edba6d6ee92e410cb453afda2a2f21ae.png">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">上海应用技术学院</p>
+								<p class="pp p2">Shanghai Institute of Technology</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/14/1e0c04a85db44fa28b99b6f13d5d38f8/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">上海政法学院</p>
+								<p class="pp p2">Shanghai University of Political Science and Law</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/161/l/882523e5c2c64325be00471f1bd8c01d.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">上海立信会计学院</p>
+								<p class="pp p2">Shanghai Lixin University of Commerce</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/14/c88feac308354b12b59f0ce4c7c28633/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">上海第二工业大学</p>
+								<p class="pp p2">Shanghai Second Polytechnic University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/133/l/15dbfa0f8d0044ba892807ba5b70be2e.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">上海财经大学</p>
+								<p class="pp p2">Shanghai University of Finance and Economics</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/14/a28981b53e824ea9ba89631776770c51/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">上海音乐学院</p>
+								<p class="pp p2">Shanghai Conservatory of Music</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/150/l/79252cc5e74642af913749bd7d794591.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">东北农业大学</p>
+								<p class="pp p2">Northeast Agricultural University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/16/882a414b3d784e6c94783cb987d38281/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">东华大学</p>
+								<p class="pp p2">Donghua University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/14/a0c6e72a8960480d8e2b817236dc6bb2/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">云南中医学院</p>
+								<p class="pp p2">Yunnan University of Traditional Chinese Medicine</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/14/69193fee04bd4f02985f249dcb07ed09/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">云南农业大学</p>
+								<p class="pp p2">YUNNAN AGRICULTURAL UNIVERSITY</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/16/28b3830640a74fd2bf671460002cfb04/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">兰州大学</p>
+								<p class="pp p2">Lanzhou University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/163/l/ecac20f39e3048898ce1fb73f9a100e8.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">北京语言大学</p>
+								<p class="pp p2">Beijing Language &amp; Culture University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/16/b410ba9720004fb59dca1b674050d6e3/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">华东师范大学</p>
+								<p class="pp p2">East China Normal University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/16/e07b4bbd4fe84649ad0286a14473134b/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">华东政法大学</p>
+								<p class="pp p2">East China University of Political Science and Law</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/14/85e9e0804546402e93a19598a8864d86/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">华东理工大学</p>
+								<p class="pp p2">East China University of Science and Technology</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/92/l/d21c328997324a07b6fd201b30783ec1.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">华北科技学院</p>
+								<p class="pp p2">North China Institute of Science and Technology</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/16/47f96c235c7642adbd1bec6e28c6eee7/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">华南师范大学</p>
+								<p class="pp p2">South China Normal University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/151/l/0fc0f573767146a4b42b57884e44c5f1.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">哈尔滨工程大学</p>
+								<p class="pp p2">Harbin Engineering University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/149/l/d3fb439f805f46c6ac14012e4e6150ee.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">哈尔滨石油学院</p>
+								<p class="pp p2">Harbin Institute of Petroleum</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/54/l/f553812478b548e0bc06364a02ced8ba.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">大连交通大学</p>
+								<p class="pp p2">Dalian Jiaotong University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/233/l/78c4aa521f8940b48b22347c9a8401b4.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">太原科技大学</p>
+								<p class="pp p2">Taiyuan University of Science and Technology</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/201/l/9c8e02c25cc9467f9311d2de3ac41484.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">宁夏大学新华学院</p>
+								<p class="pp p2">Xinhua College of Ningxia University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/16/d7d5d5f1d2ad47f1834e2746f608202d/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">安徽建筑大学</p>
+								<p class="pp p2">Anhui Jianzhu University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/16/92be02089d2144709beb4f910633e899/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">对外经济贸易大学</p>
+								<p class="pp p2">University of International Business and Economics</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/16/5f90e68c263a4378a8e65b48cc8d7e5f/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">广州中医药大学</p>
+								<p class="pp p2">Guangzhou University of Chinese Medicine</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/16/b335f232f8964765aa8c46836b5a8f22/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">曲靖师范学院</p>
+								<p class="pp p2">Qujing Normal University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/13/1ad50c23cddb46ab98ac649dad1b3fd8/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">海南大学</p>
+								<p class="pp p2">Hainan University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/14/6795d7d9a8064e2aba33c1aebd14fa68/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">西安理工大学</p>
+								<p class="pp p2">Xi'an University of Technology</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/202/l/c9062dcf54954a4c9adee76232b06fee.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">贵州大学</p>
+								<p class="pp p2">Guizhou University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/143/l/3eb4b7bfed994b92a21003d6a911609d.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">辽宁何氏医学院</p>
+								<p class="pp p2">He University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/166/l/833b9026442e415c9956f610d7b9ab1c.png">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">郑州大学</p>
+								<p class="pp p2">Zhengzhou University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/1410/16/c0467cb8eba54d0d9d30aaf6529b06ec/s.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">金陵科技学院</p>
+								<p class="pp p2">JINLING INSTITUTE OF TECHNOLOGY</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/144/l/0f00e4f2849c4496a4e9d78d05e96e4f.png">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">陕西科技大学</p>
+								<p class="pp p2">Shaanxi University of Science &amp; Technology</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/147/l/fe4cd5f297be4e758954011b955a0f85.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">黑龙江东方学院</p>
+								<p class="pp p2">East University of Heilongjiang</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/148/l/ae2118dd623640ab9452108e8260eced.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">黑龙江外国语学院</p>
+								<p class="pp p2">Heilongjiang International University</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/240/l/e914fd6c34b04ffbb5193d72ee6a7dbe.jpg">
+						<div href="##" class="shadow-box">
+								<p class="pp p1">中国石油大学（华东）</p>
+								<p class="pp p2">China University Of Petroleum</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				</ul>
+			</div>
+			<!-- 院校联盟********************************************************************-->
+			<div class="public">
+				<h3><i class="icon-public"></i>院校联盟</h3>
+				<ul class="sc-list">
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/242/l/b68cd238cc7947f5b0b8f476306655f5.jpg">
+						<div href="##" class="shadow-box">
+							<p class="pp p1">ewant育网</p>
+							<p class="pp p2">ewant</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/93/l/484720b3b5754cbfabb051f168679985.jpg">
+						<div href="##" class="shadow-box">
+							<p class="pp p1">示范性软件学院联盟 </p>
+							<p class="pp p2">The Pilot Software Engineering Schools Association</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				
+					<li class="sc-item">
+						<img src="http://static.cnmooc.org/repositry/schimg/60/l/1bc5a70cf32348969cee05b7b6fb75a5.png">
+						<div href="##" class="shadow-box">
+							<p class="pp p1">重庆大学城联盟</p>
+							<p class="pp p2">Chongqing College Town</p>
+						</div>
+						<a href="##" class="glass"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<div>
+			<!-- footer-left -->
+			<div>
+				<div class="foot-com-height">
+					中国高水平大学慕课联盟官方网站
+					
+					<ul>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<p class="foot-com-height">© 版权所有 2015 上海交通大学慕课研究院</p>
+				<p class="foot-com-height cooperate">
+					<span>战略合作：</span>
+					<a href="##" class="icon-baidu"></a>
+					<a href="##" class="icon-wisedu"></a>
+				</p>
+				<p class="foot-com-height">沪ICP备06018291号</p>
+			</div>
+			<!-- footer-center -->
+			<div class="footer-center">
+				<div class="foot-com-height">客服电话：4008296199</div>
+				<div class="foot-com-height">
+					QQ 客服：
+					<a href="##">
+						<i class="qq"></i>
+						<u style="color:#fff;text-decoration:none;">2782661530</u>
+					</a>
+				</div>
+				<div class="foot-com-height">
+					关注微信：
+					<a href="##" style="margin-left:-1px;position:relative;" class="qr">
+						<i class="wechat"></i>
+						<span>sjtucnmooc</span>
+						<img src="../images/wechat.jpg" class="wechat-qr">
+					</a>
+				</div>
+			</div>
+			<!-- footer-right -->
+			<div>
+				<dl>
+					<dt>联盟</dt>
+					<dd><a href="##">服务条款</a></dd>
+					<dd><a href="##">关于我们</a></dd>
+					<dd><a href="##">联系我们</a></dd>
+				</dl>
+				<dl>
+					<dt>帮助</dt>
+					<dd><a href="##">常见问题</a></dd>
+					<dd><a href="##">学生手册</a></dd>
+					<dd><a href="##">证书查询</a></dd>
+				</dl>
+				<dl>
+					<dt>更多</dt>
+					<dd><a href="##">通知通告</a></dd>
+					<dd><a href="##">新闻动态</a></dd>
+					<dd><a href="##">媒体报道</a></dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+	
+</body>
+<script src="../js/universities.js"></script>
+<script src="../js/public.js"></script>
+<script src="../js/user.js"></script>
+</html>

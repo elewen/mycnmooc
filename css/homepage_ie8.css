@@ -1,0 +1,4 @@
+.content-3 li>div{height: 164px; position: relative;}/**********mark 此处给overflow*/
+.shadow-box{filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C8000000,endColorstr=#C8000000);top:0px;display: none;cursor: pointer;}
+.content-3 li>div:hover>.shadow-box{display: block;}
+.glass{display: none;}

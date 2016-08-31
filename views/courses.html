@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">	
+<head>
+	<meta charset="UTF-8">
+	<title>课程</title>
+	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../css/courses.css">
+	<style>
+		.skip>.Pink{background-color: #f48282;height: 80px;color:#fff;}
+	</style>
+	<!--[if IE 8]><link rel="stylesheet" type="text/css" href="../css/courses_ie8.css" /><![endif]-->
+</head>
+<body>
+	<div class="header"">
+		<div>
+			<div class="logo">
+				<a href="##">
+					<img src="../images/logo.png" alt="">
+				</a>
+			</div>
+			<div class="skip">
+				<a href="./homepage.html">
+					<span>首页</span>
+				</a>
+				<a href="./courses.html" class="Pink">
+					<span>课程</span>
+				</a>
+				<a href="./universities.html">
+					<span>院校</span>
+				</a>
+			</div>
+			<div class="user">
+				<div id="loged" style="">
+					<span style="" id="displayUser"></span>
+					<div id="fuckOff" style="display:none;">
+						<a href="##" style="">&nbsp;&nbsp;退出&nbsp;&nbsp;</a>
+					</div>
+				</div>
+				<div id="unLogin">
+					<a href="./signUp.html" target="_black">注册</a> / <a href="./login.html"  target="_black">登录</a>
+				</div>
+				<!-- 扫二维码 -->
+				<div class="app" id="app">
+					<a href="##"></a>
+				</div>
+				<!-- 搜索 -->
+				<div id="search">
+					<a href="##"></a>
+				</div>
+				<div id="searchMoveBox" style="">
+					<input type="text" placeholder="根据课程名称、学校、教师搜索">
+					<a href="##">
+						<i class="icon "></i>
+					</a>
+				</div>
+			</div>
+			<a class="mobile-app" id="mobileApp" style="display:none;">
+				<img src="../images/mobile_220.png">
+			</a>
+		</div>
+	</div>
+
+	<div class="main">
+		<!-- 左侧选项栏 -->
+		<div class="sidebar">
+			<div>
+				<h3>
+					<i class="icon i-state"></i><span>课程状态</span>
+				</h3>
+				<ul>
+					<li>
+						<i class="icon i-input-r"></i><span class="type">全部</span><span class="num">293</span>
+					</li>
+					<li>
+						<i class="icon i-input-r"></i><span class="type">预发布</span><span class="num">0</span>
+					</li>
+					<li>
+						<i class="icon i-input-r"></i><span class="type">即将开始</span><span class="num">6</span>
+					</li>
+					<li>
+						<i class="icon i-input-r"></i><span class="type">正在进行</span><span class="num">192</span>
+					</li>
+					<li>
+						<i class="icon i-input-r"></i><span class="type">已结束</span><span class="num">95</span>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h3>
+					<i class="icon i-input-c"></i><span>合作机构</span>
+				</h3>
+				<ul>
+					<li>
+						<i class="icon i-input-r"></i><span class="type">IBM大数据大学</span><span class="num">43</span>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<ul>
+					<li>
+						<i class="icon i-input-c"></i><span class="type">随到随学</span><span class="num">52</span>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h3>
+					<i class="icon i-input-c"></i><span>有无证书</span>
+				</h3>
+				<ul>
+					<li>
+						<i class="icon i-input-c"></i><span class="type">无证书</span><span class="num">124</span>
+					</li>
+					<li>
+						<i class="icon i-input-c"></i><span class="type">有证书</span><span class="num">169</span>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h3>
+					<i class="icon i-input-c"></i><span>授课语言</span>
+				</h3>
+				<ul>
+					<li>
+						<i class="icon i-input-c"></i><span class="type">中文</span><span class="num">243</span>
+					</li>
+					<li>
+						<i class="icon i-input-c"></i><span class="type">英文</span><span class="num">50</span>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h3>
+					<i class="icon i-input-c"></i><span>学科分类</span>
+				</h3>
+				<ul>
+					<li>
+						<i class="icon i-input-c"></i><span class="type">哲学</span><span class="num">16</span>
+					</li>
+					<li>
+						<i class="icon i-input-c"></i><span class="type">经济学</span><span class="num">30</span>
+					</li>
+					<li>
+						<i class="icon i-input-c"></i><span class="type">法学</span><span class="num">32</span>
+					</li>
+					<li>
+						<i class="icon i-input-c"></i><span class="type">教育学</span><span class="num">25</span>
+					</li>
+					<li>
+						<i class="icon i-input-c"></i><span class="type">文学</span><span class="num">44</span>
+					</li>
+					<li>
+						<i class="icon i-input-c"></i><span class="type">历史学</span><span class="num">9</span>
+					</li>
+					<li>
+						<i class="icon i-input-c"></i><span class="type">理学</span><span class="num">52</span>
+					</li>
+					<li>
+						<i class="icon i-input-c"></i><span class="type">工学</span><span class="num">75</span>
+					</li>
+					<li>
+						<i class="icon i-input-c"></i><span class="type">农学</span><span class="num">7</span>
+					</li>
+					<li>
+						<i class="icon i-input-c"></i><span class="type">医学</span><span class="num">58</span>
+					</li>
+					<li>
+						<i class="icon i-input-c"></i><span class="type">军事学</span><span class="num">0</span>
+					</li>
+					<li>
+						<i class="icon i-input-c"></i><span class="type">管理学</span><span class="num">27</span>
+					</li>
+					<li>
+						<i class="icon i-input-c"></i><span class="type">艺术学</span><span class="num">16</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- 主体 -->
+		<div class="center">
+			<!-- 搜索 -->
+			<div class="center-header">
+				<div>
+					<input type="text" placeholder="根据课程名称、学校、教师搜索">
+					<a href="##">
+						<i class="icon "></i>
+					</a>
+					<i class="cl"></i>
+				</div> 
+			</div>
+
+			<div style="clear:both;"></div>
+			<!-- 列表 -->
+			<div class="center-body">
+				<!-- 课程列表 -->
+				<ul>
+					<il class="view-list">
+						<div>
+							<div class="box">
+								<img src="../images/e01.jpg" alt="">
+								<a href="##">
+									<div class="shadow">
+										<i class="icon icon-play"></i>去看看
+									</div>
+								</a>
+								<a href="##" class="test"></a>
+							</div>
+							<div class="intro">
+								<div class="le">
+									<!-- 标题 -->
+									<h3>
+										<a href="##">管理沟通<span>2016秋</span></a>
+									</h3>
+									<!-- 时间 -->
+									<div class="timer">
+										<div>
+											<div class="dd">
+												<span class="num">3</span>
+												<span class="num">9</span>
+												<span class="dd-txt">天</span>
+											</div>
+											<div class="hh">
+												<span class="num">1</span>
+												<span class="num">5</span>
+												<span class="hh-txt">小时</span>
+											</div>
+										</div>
+									</div>
+									<div class="date01">
+										<span>
+											<i class="icon icon-date01"></i>2016/09/19开课
+										</span>
+									</div>
+								</div>
+								<div class="ri">
+									<a href="##">
+										<span>
+											<img src="../images/f1.png" alt="">
+										</span>
+										<h4>张莉</h4>
+										<h4>哈尔滨工业大学</h4>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="glass"></div>
+					</il>
+					<il class="view-list">
+						<div>
+							<div class="box">
+								<img src="../images/e02.jpg" alt="">
+								<a href="##">
+									<div class="shadow">
+										<i class="icon icon-play"></i>去看看
+									</div>
+								</a>
+								<a href="##" class="test"></a>
+							</div>
+							<div class="intro">
+								<div class="le">
+									<!-- 标题 -->
+									<h3>
+										<a href="##">管理沟通<span>2016秋</span></a>
+									</h3>
+									<!-- 时间 -->
+									<div class="timer">
+										<div>
+											<div class="dd">
+												<span class="num">2</span>
+												<span class="num">4</span>
+												<span class="dd-txt">天</span>
+											</div>
+											<div class="hh">
+												<span class="num">1</span>
+												<span class="num">1</span>
+												<span class="hh-txt">小时</span>
+											</div>
+										</div>
+									</div>
+									<div class="date01">
+										<span>
+											<i class="icon icon-date01"></i>2016/09/19开课
+										</span>
+									</div>
+								</div>
+								<div class="ri">
+									<a href="##">
+										<span>
+											<img src="../images/f2.png" alt="">
+										</span>
+										<h4>张莉</h4>
+										<h4>哈尔滨工业大学</h4>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="glass"></div>
+					</il>
+					<il class="view-list">
+						<div>
+							<div class="box">
+								<img src="../images/e03.jpg" alt="">
+								<a href="##">
+									<div class="shadow">
+										<i class="icon icon-play"></i>去看看
+									</div>
+								</a>
+								<a href="##" class="test"></a>
+							</div>
+							<div class="intro">
+								<div class="le">
+									<!-- 标题 -->
+									<h3>
+										<a href="##">管理沟通<span>2016秋</span></a>
+									</h3>
+									<!-- 时间 -->
+									<div class="timer">
+										<div>
+											<div class="dd">
+												<span class="num">3</span>
+												<span class="num">4</span>
+												<span class="dd-txt">天</span>
+											</div>
+											<div class="hh">
+												<span class="num">0</span>
+												<span class="num">5</span>
+												<span class="hh-txt">小时</span>
+											</div>
+										</div>
+									</div>
+									<div class="date01">
+										<span>
+											<i class="icon icon-date01"></i>2016/09/19开课
+										</span>
+									</div>
+								</div>
+								<div class="ri">
+									<a href="##">
+										<span>
+											<img src="../images/f3.png" alt="">
+										</span>
+										<h4>张莉</h4>
+										<h4>哈尔滨工业大学</h4>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="glass"></div>
+					</il>
+					<il class="view-list">
+						<div>
+							<div class="box">
+								<img src="../images/e04.jpg" alt="">
+								<a href="##">
+									<div class="shadow">
+										<i class="icon icon-play"></i>去看看
+									</div>
+								</a>
+								<a href="##" class="test"></a>
+							</div>
+							<div class="intro">
+								<div class="le">
+									<!-- 标题 -->
+									<h3>
+										<a href="##">管理沟通<span>2016秋</span></a>
+									</h3>
+									<!-- 时间 -->
+									<div class="timer">
+										<div>
+											<div class="dd">
+												<span class="num">1</span>
+												<span class="num">1</span>
+												<span class="dd-txt">天</span>
+											</div>
+											<div class="hh">
+												<span class="num">0</span>
+												<span class="num">8</span>
+												<span class="hh-txt">小时</span>
+											</div>
+										</div>
+									</div>
+									<div class="date01">
+										<span>
+											<i class="icon icon-date01"></i>2016/09/19开课
+										</span>
+									</div>
+								</div>
+								<div class="ri">
+									<a href="##">
+										<span>
+											<img src="../images/f4.png" alt="">
+										</span>
+										<h4>张莉</h4>
+										<h4>哈尔滨工业大学</h4>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="glass"></div>
+					</il>
+					<il class="view-list">
+						<div>
+							<div class="box">
+								<img src="../images/e05.jpg" alt="">
+								<a href="##">
+									<div class="shadow">
+										<i class="icon icon-play"></i>去看看
+									</div>
+								</a>
+								<a href="##" class="test"></a>
+							</div>
+							<div class="intro">
+								<div class="le">
+									<!-- 标题 -->
+									<h3>
+										<a href="##">管理沟通<span>2016秋</span></a>
+									</h3>
+									<!-- 时间 -->
+									<div class="timer">
+										<div>
+											<div class="dd">
+												<span class="num">1</span>
+												<span class="num">8</span>
+												<span class="dd-txt">天</span>
+											</div>
+											<div class="hh">
+												<span class="num">1</span>
+												<span class="num">8</span>
+												<span class="hh-txt">小时</span>
+											</div>
+										</div>
+									</div>
+									<div class="date01">
+										<span>
+											<i class="icon icon-date01"></i>2016/09/19开课
+										</span>
+									</div>
+								</div>
+								<div class="ri">
+									<a href="##">
+										<span>
+											<img src="../images/f5.png" alt="">
+										</span>
+										<h4>张莉</h4>
+										<h4>哈尔滨工业大学</h4>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="glass"></div>
+					</il>
+					<il class="view-list">
+						<div>
+							<div class="box">
+								<img src="../images/e06.jpg" alt="">
+								<a href="##">
+									<div class="shadow">
+										<i class="icon icon-play"></i>去看看
+									</div>
+								</a>
+								<a href="##" class="test"></a>
+							</div>
+							<div class="intro">
+								<div class="le">
+									<!-- 标题 -->
+									<h3>
+										<a href="##">管理沟通<span>2016秋</span></a>
+									</h3>
+									<!-- 时间 -->
+									<div class="timer">
+										<div>
+											<div class="dd">
+												<span class="num">3</span>
+												<span class="num">0</span>
+												<span class="dd-txt">天</span>
+											</div>
+											<div class="hh">
+												<span class="num">2</span>
+												<span class="num">2</span>
+												<span class="hh-txt">小时</span>
+											</div>
+										</div>
+									</div>
+									<div class="date01">
+										<span>
+											<i class="icon icon-date01"></i>2016/09/19开课
+										</span>
+									</div>
+								</div>
+								<div class="ri">
+									<a href="##">
+										<span>
+											<img src="../images/f6.png" alt="">
+										</span>
+										<h4>张莉</h4>
+										<h4>哈尔滨工业大学</h4>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="glass"></div>
+					</il>
+					<il class="view-list">
+						<div>
+							<div class="box">
+								<img src="../images/e07.jpg" alt="">
+								<a href="##">
+									<div class="shadow">
+										<i class="icon icon-play"></i>去看看
+									</div>
+								</a>
+								<a href="##" class="test"></a>
+							</div>
+							<div class="intro">
+								<div class="le">
+									<!-- 标题 -->
+									<h3>
+										<a href="##">管理沟通<span>2016秋</span></a>
+									</h3>
+									<!-- 时间 -->
+									<div class="timer">
+										<div>
+											<div class="dd">
+												<span class="num">2</span>
+												<span class="num">9</span>
+												<span class="dd-txt">天</span>
+											</div>
+											<div class="hh">
+												<span class="num">2</span>
+												<span class="num">5</span>
+												<span class="hh-txt">小时</span>
+											</div>
+										</div>
+									</div>
+									<div class="date01">
+										<span>
+											<i class="icon icon-date01"></i>2016/09/19开课
+										</span>
+									</div>
+								</div>
+								<div class="ri">
+									<a href="##">
+										<span>
+											<img src="../images/f7.png" alt="">
+										</span>
+										<h4>张莉</h4>
+										<h4>哈尔滨工业大学</h4>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="glass"></div>
+					</il>
+					<il class="view-list">
+						<div>
+							<div class="box">
+								<img src="../images/e08.jpg" alt="">
+								<a href="##">
+									<div class="shadow">
+										<i class="icon icon-play"></i>去看看
+									</div>
+								</a>
+								<a href="##" class="test"></a>
+							</div>
+							<div class="intro">
+								<div class="le">
+									<!-- 标题 -->
+									<h3>
+										<a href="##">管理沟通<span>2016秋</span></a>
+									</h3>
+									<!-- 时间 -->
+									<div class="timer">
+										<div>
+											<div class="dd">
+												<span class="num">1</span>
+												<span class="num">1</span>
+												<span class="dd-txt">天</span>
+											</div>
+											<div class="hh">
+												<span class="num">2</span>
+												<span class="num">2</span>
+												<span class="hh-txt">小时</span>
+											</div>
+										</div>
+									</div>
+									<div class="date01">
+										<span>
+											<i class="icon icon-date01"></i>2016/09/19开课
+										</span>
+									</div>
+								</div>
+								<div class="ri">
+									<a href="##">
+										<span>
+											<img src="../images/f8.png" alt="">
+										</span>
+										<h4>张莉</h4>
+										<h4>哈尔滨工业大学</h4>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="glass"></div>
+					</il>
+					<il class="view-list">
+						<div>
+							<div class="box">
+								<img src="../images/e09.jpg" alt="">
+								<a href="##">
+									<div class="shadow">
+										<i class="icon icon-play"></i>去看看
+									</div>
+								</a>
+								<a href="##" class="test"></a>
+							</div>
+							<div class="intro">
+								<div class="le">
+									<!-- 标题 -->
+									<h3>
+										<a href="##">管理沟通<span>2016秋</span></a>
+									</h3>
+									<!-- 时间 -->
+									<div class="timer">
+										<div>
+											<div class="dd">
+												<span class="num">3</span>
+												<span class="num">9</span>
+												<span class="dd-txt">天</span>
+											</div>
+											<div class="hh">
+												<span class="num">1</span>
+												<span class="num">5</span>
+												<span class="hh-txt">小时</span>
+											</div>
+										</div>
+									</div>
+									<div class="date01">
+										<span>
+											<i class="icon icon-date01"></i>2016/09/19开课
+										</span>
+									</div>
+								</div>
+								<div class="ri">
+									<a href="##">
+										<span>
+											<img src="../images/f9.png" alt="">
+										</span>
+										<h4>张莉</h4>
+										<h4>哈尔滨工业大学</h4>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="glass"></div>
+					</il>
+					<il class="view-list">
+						<div>
+							<div class="box">
+								<img src="../images/e10.jpg" alt="">
+								<a href="##">
+									<div class="shadow">
+										<i class="icon icon-play"></i>去看看
+									</div>
+								</a>
+								<a href="##" class="test"></a>
+							</div>
+							<div class="intro">
+								<div class="le">
+									<!-- 标题 -->
+									<h3>
+										<a href="##">管理沟通<span>2016秋</span></a>
+									</h3>
+									<!-- 时间 -->
+									<div class="timer">
+										<div>
+											<div class="dd">
+												<span class="num">1</span>
+												<span class="num">4</span>
+												<span class="dd-txt">天</span>
+											</div>
+											<div class="hh">
+												<span class="num">1</span>
+												<span class="num">5</span>
+												<span class="hh-txt">小时</span>
+											</div>
+										</div>
+									</div>
+									<div class="date01">
+										<span>
+											<i class="icon icon-date01"></i>2016/09/19开课
+										</span>
+									</div>
+								</div>
+								<div class="ri">
+									<a href="##">
+										<span>
+											<img src="../images/f10.png" alt="">
+										</span>
+										<h4>张莉</h4>
+										<h4>哈尔滨工业大学</h4>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="glass"></div>
+					</il>
+				</ul>
+				<!-- 底部页码选择 -->
+				<div>
+					<ul class="page">
+						<li class="page-prev">
+			                <a href="javascript:void(0);" id="page-prev" pagenum="1">‹</a>
+			            </li>
+			            <li class="page-num current">
+			                <a href="javascript:void(0);" pagenum="1" class="icon page-num-a">1</a>
+			            </li>
+	                    <li class="page-num ">
+	                        <a href="javascript:void(0);" pagenum="2" class="icon pagination">2</a>
+	                    </li>
+	                    <li class="page-num ">
+	                        <a href="javascript:void(0);" pagenum="3" class="icon pagination">3</a>
+	                    </li>
+	                    <li class="page-num ">
+	                        <a class="page-dot icon pagination" href="javascript:void(0);">...</a>
+	                    </li>
+		                <li class="page-num ">
+		                    <a href="javascript:void(0);" pagenum="30" class="icon pagination">30</a>
+		                </li>
+			            <li class="page-next">
+			                <a href="javascript:void(0);" id="page-next" pagenum="2">›</a>
+			            </li>
+			            <li class="page-action">
+			                <input type="text" class="input-text input-page" title="Enter Search" pattern="[0-9]" value="1">
+			                <span class="page-total">/30 页 </span>
+			            </li>
+			        </ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<div>
+			<!-- footer-left -->
+			<div>
+				<div class="foot-com-height">
+					中国高水平大学慕课联盟官方网站
+					
+					<ul>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<p class="foot-com-height">© 版权所有 2015 上海交通大学慕课研究院</p>
+				<p class="foot-com-height cooperate">
+					<span>战略合作：</span>
+					<a href="##" class="icon-baidu"></a>
+					<a href="##" class="icon-wisedu"></a>
+				</p>
+				<p class="foot-com-height">沪ICP备06018291号</p>
+			</div>
+			<!-- footer-center -->
+			<div class="footer-center">
+				<div class="foot-com-height">客服电话：4008296199</div>
+				<div class="foot-com-height">
+					QQ 客服：
+					<a href="##">
+						<i class="qq"></i>
+						<span>2782661530</span>
+					</a>
+				</div>
+				<div class="foot-com-height">
+					关注微信：
+					<a href="##" style="margin-left:-1px;position:relative;" class="qr">
+						<i class="wechat"></i>
+						<span>sjtucnmooc</span>
+						<img src="../images/wechat.jpg" class="wechat-qr">
+					</a>
+				</div>
+			</div>
+			<!-- footer-right -->
+			<div>
+				<dl>
+					<dt>联盟</dt>
+					<dd><a href="##">服务条款</a></dd>
+					<dd><a href="##">关于我们</a></dd>
+					<dd><a href="##">联系我们</a></dd>
+				</dl>
+				<dl>
+					<dt>帮助</dt>
+					<dd><a href="##">常见问题</a></dd>
+					<dd><a href="##">学生手册</a></dd>
+					<dd><a href="##">证书查询</a></dd>
+				</dl>
+				<dl>
+					<dt>更多</dt>
+					<dd><a href="##">通知通告</a></dd>
+					<dd><a href="##">新闻动态</a></dd>
+					<dd><a href="##">媒体报道</a></dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+	
+</body>
+<script src="../js/courses.js"></script>
+<script src="../js/public.js"></script>
+<script src="../js/user.js"></script> 
+</html>
